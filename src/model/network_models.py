@@ -5,9 +5,6 @@ import numpy as np
 
 
 class NetWorkModels(ModelBaseline):
-    def __init__(self):
-        super().__init__()
-
     def fit_model(self, epochs=100, batch_size=1024, shuffle=True, verbose=True):
         """
             Train model.
